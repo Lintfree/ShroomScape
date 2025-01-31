@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "group": "shroomcraft",
+  "key": {
+    "#": {
+      "item": "minecraft:mushroom_stem"
+    }
+  },
+  "pattern": [
+    "##",
+    "##",
+    "##"
+  ],
+  "result": {
+    "count": 3,
+    "id": "shroomscape:shroom_stem_door"
+  }
+}
