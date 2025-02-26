@@ -38,11 +38,12 @@ import net.neoforged.neoforge.registries.DeferredHolder
 import net.neoforged.neoforge.registries.DeferredRegister
 
 object ShroomTab {
-	val CREATIVE_MODE_TABS: DeferredRegister<CreativeModeTab> = DeferredRegister.create(Registries.CREATIVE_MODE_TAB, ShroomScape.ID)
+	val CREATIVE_MODE_TABS: DeferredRegister<CreativeModeTab> =
+		DeferredRegister.create(Registries.CREATIVE_MODE_TAB, ShroomScape.ID)
 
 val SHROOM_TAB: DeferredHolder <CreativeModeTab, CreativeModeTab> = CREATIVE_MODE_TABS.register("shroom_tab") { ->
-		CreativeModeTab.builder().withTabsBefore(CreativeModeTabs.COMBAT)
-			.title (Component.translatable("itemGroup.shroom_craft"))
+		CreativeModeTab.builder()
+			.title (Component.translatable("ShroomScape"))
 			.withTabsBefore(CreativeModeTabs.COMBAT)
 			.icon { ItemStack(RED_SHROOM_STAIRS.get().asItem()) }
 			.displayItems { itemDisplayParameters, output ->

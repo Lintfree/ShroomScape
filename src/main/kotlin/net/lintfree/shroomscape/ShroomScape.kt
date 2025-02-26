@@ -3,6 +3,7 @@ package net.lintfree.shroomscape
 import net.lintfree.shroomscape.block.ModBlocks
 import net.lintfree.shroomscape.item.ModItems
 import net.lintfree.shroomscape.tabs.ShroomTab
+import net.lintfree.shroomscape.tabs.ShroomTab.CREATIVE_MODE_TABS
 import net.minecraft.client.Minecraft
 import net.neoforged.bus.api.SubscribeEvent
 import net.neoforged.fml.common.EventBusSubscriber
@@ -33,7 +34,7 @@ object ShroomScape {
 		// Register the KDeferredRegister to the mod-specific event bus
 		ModBlocks.BLOCK_REGISTRY.register(MOD_BUS)
 		ModItems.ITEM_REGISTRY.register(MOD_BUS)
-		ShroomTab.CREATIVE_MODE_TABS.register(MOD_BUS)
+		CREATIVE_MODE_TABS.register(MOD_BUS)
 		MOD_BUS.addListener(ShroomTab::addCreative)
 
 

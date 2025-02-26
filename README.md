@@ -35,6 +35,6 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 ## Contact
 
-Lintfree - [@your_twitter](https://twitter.com/your_twitter)
+Lintfree - [@Lintfree_](https://x.com/Lintfree_)
 
-Project Link: [https://github.com/your_username/mushroom-textures-mod](https://github.com/your_username/mushroom-textures-mod)
+Project Link: [https://github.com/Lintfree](https://github.com/Lintfree/ShroomScape)
